@@ -11,6 +11,7 @@
 		D71FB09A2B76D42B00013936 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D71FB0992B76D42B00013936 /* ContentView.swift */; };
 		D71FB09C2B76D42D00013936 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D71FB09B2B76D42D00013936 /* Assets.xcassets */; };
 		D71FB09F2B76D42D00013936 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D71FB09E2B76D42D00013936 /* Preview Assets.xcassets */; };
+		D71FB0A62B78134600013936 /* SideMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D71FB0A52B78134600013936 /* SideMenuView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		D71FB0992B76D42B00013936 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		D71FB09B2B76D42D00013936 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D71FB09E2B76D42D00013936 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D71FB0A52B78134600013936 /* SideMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +57,7 @@
 				D71FB0992B76D42B00013936 /* ContentView.swift */,
 				D71FB09B2B76D42D00013936 /* Assets.xcassets */,
 				D71FB09D2B76D42D00013936 /* Preview Content */,
+				D71FB0A52B78134600013936 /* SideMenuView.swift */,
 			);
 			path = SideMenuDemo;
 			sourceTree = "<group>";
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D71FB0A62B78134600013936 /* SideMenuView.swift in Sources */,
 				D71FB09A2B76D42B00013936 /* ContentView.swift in Sources */,
 				D71FB0982B76D42B00013936 /* SideMenuDemoApp.swift in Sources */,
 			);
