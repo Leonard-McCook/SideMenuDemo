@@ -17,6 +17,12 @@ struct SideMenuView: View {
                     .opacity(0.3)
                     .ignoresSafeArea()
                     .onTapGesture { isShowing.toggle() }
+                
+                HStack {
+                    VStack(alignment: .leading, spacing: 32) {
+                        SideMenuHeaderView()
+                    }
+                }
             }
         }
     }
