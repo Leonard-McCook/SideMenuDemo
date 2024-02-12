@@ -12,6 +12,7 @@
 		D71FB09C2B76D42D00013936 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D71FB09B2B76D42D00013936 /* Assets.xcassets */; };
 		D71FB09F2B76D42D00013936 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D71FB09E2B76D42D00013936 /* Preview Assets.xcassets */; };
 		D71FB0A62B78134600013936 /* SideMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D71FB0A52B78134600013936 /* SideMenuView.swift */; };
+		D71FB0A82B799B4400013936 /* SideMenuHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D71FB0A72B799B4400013936 /* SideMenuHeaderView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		D71FB09B2B76D42D00013936 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D71FB09E2B76D42D00013936 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		D71FB0A52B78134600013936 /* SideMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuView.swift; sourceTree = "<group>"; };
+		D71FB0A72B799B4400013936 /* SideMenuHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuHeaderView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 				D71FB09B2B76D42D00013936 /* Assets.xcassets */,
 				D71FB09D2B76D42D00013936 /* Preview Content */,
 				D71FB0A52B78134600013936 /* SideMenuView.swift */,
+				D71FB0A72B799B4400013936 /* SideMenuHeaderView.swift */,
 			);
 			path = SideMenuDemo;
 			sourceTree = "<group>";
@@ -141,6 +144,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D71FB0A62B78134600013936 /* SideMenuView.swift in Sources */,
+				D71FB0A82B799B4400013936 /* SideMenuHeaderView.swift in Sources */,
 				D71FB09A2B76D42B00013936 /* ContentView.swift in Sources */,
 				D71FB0982B76D42B00013936 /* SideMenuDemoApp.swift in Sources */,
 			);

@@ -12,11 +12,16 @@ struct SideMenuView: View {
     
     var body: some View {
         ZStack {
-            
+            if isShowing {
+                Rectangle()
+                    .opacity(0.3)
+                    .ignoresSafeArea()
+                    .onTapGesture { isShowing.toggle() }
+            }
         }
     }
 }
 
 #Preview {
-    SideMenuView(isShowing: .constant(false))
+    SideMenuView(isShowing: .constant(true))
 }
