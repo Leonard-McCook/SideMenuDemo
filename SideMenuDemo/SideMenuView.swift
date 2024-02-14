@@ -21,10 +21,19 @@ struct SideMenuView: View {
                 HStack {
                     VStack(alignment: .leading, spacing: 32) {
                         SideMenuHeaderView()
+                        
+                        Spacer()
                     }
+                    .padding()
+                    .frame(width: 270, alignment: .leading)
+                    .background(.white)
+                    
+                    Spacer()
                 }
             }
         }
+        .transition(.move(edge: .leading))
+        .animation(.easeInOut, value: isShowing)
     }
 }
 
