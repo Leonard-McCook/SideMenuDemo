@@ -14,6 +14,7 @@
 		D71FB0A62B78134600013936 /* SideMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D71FB0A52B78134600013936 /* SideMenuView.swift */; };
 		D71FB0A82B799B4400013936 /* SideMenuHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D71FB0A72B799B4400013936 /* SideMenuHeaderView.swift */; };
 		D759C60D2B7CFEAC005838F8 /* SideMenuRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D759C60C2B7CFEAC005838F8 /* SideMenuRowView.swift */; };
+		D759C60F2B7FAAAC005838F8 /* SideMenuOptionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D759C60E2B7FAAAC005838F8 /* SideMenuOptionModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		D71FB0A52B78134600013936 /* SideMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuView.swift; sourceTree = "<group>"; };
 		D71FB0A72B799B4400013936 /* SideMenuHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuHeaderView.swift; sourceTree = "<group>"; };
 		D759C60C2B7CFEAC005838F8 /* SideMenuRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuRowView.swift; sourceTree = "<group>"; };
+		D759C60E2B7FAAAC005838F8 /* SideMenuOptionModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuOptionModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +66,7 @@
 				D71FB0A52B78134600013936 /* SideMenuView.swift */,
 				D71FB0A72B799B4400013936 /* SideMenuHeaderView.swift */,
 				D759C60C2B7CFEAC005838F8 /* SideMenuRowView.swift */,
+				D759C60E2B7FAAAC005838F8 /* SideMenuOptionModel.swift */,
 			);
 			path = SideMenuDemo;
 			sourceTree = "<group>";
@@ -148,6 +151,7 @@
 			files = (
 				D71FB0A62B78134600013936 /* SideMenuView.swift in Sources */,
 				D71FB0A82B799B4400013936 /* SideMenuHeaderView.swift in Sources */,
+				D759C60F2B7FAAAC005838F8 /* SideMenuOptionModel.swift in Sources */,
 				D759C60D2B7CFEAC005838F8 /* SideMenuRowView.swift in Sources */,
 				D71FB09A2B76D42B00013936 /* ContentView.swift in Sources */,
 				D71FB0982B76D42B00013936 /* SideMenuDemoApp.swift in Sources */,
