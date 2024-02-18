@@ -9,6 +9,11 @@ import SwiftUI
 
 struct SideMenuRowView: View {
     let option: SideMenuOptionModel
+    @Binding var selectedOption: SideMenuOptionModel
+    
+    private var isSelected: Bool {
+        return selectedOption == option
+    }
     
     var body: some View {
         HStack {
@@ -27,5 +32,5 @@ struct SideMenuRowView: View {
 }
 
 #Preview {
-    SideMenuRowView(option: .dashboard)
+    SideMenuRowView(option: .dashboard, selectedOption: .constant(.dashboard))
 }

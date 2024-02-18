@@ -9,6 +9,7 @@ import SwiftUI
 
 struct SideMenuView: View {
     @Binding var isShowing: Bool
+    @State private var selectedOption: SideMenuOptionModel?
     
     var body: some View {
         ZStack {
@@ -24,7 +25,11 @@ struct SideMenuView: View {
                         
                         VStack {
                             ForEach(SideMenuOptionModel.allCases) { option in
-                                SideMenuRowView(option: option) 
+                                Button {
+                                    selectedOption = option
+                                } label: {
+                                    SideMenuRowView(option: option, selectedOption: $selectedOption)
+                                }
                             }
                         }
                         
