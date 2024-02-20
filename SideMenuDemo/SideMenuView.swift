@@ -26,12 +26,11 @@ struct SideMenuView: View {
                         
                         VStack {
                             ForEach(SideMenuOptionModel.allCases) { option in
-                                Button {
-                                    selectedOption = option
-                                    selectedTab = option.rawValue
-                                } label: {
+                                Button(action: {
+                                    onOptionTapped(option)
+                                }, label: {
                                     SideMenuRowView(option: option, selectedOption: $selectedOption)
-                                }
+                                })
                             }
                         }
                         
@@ -43,10 +42,17 @@ struct SideMenuView: View {
                     
                     Spacer()
                 }
+                .transition(.move(edge: .leading))
             }
         }
-        .transition(.move(edge: .leading))
+        
         .animation(.easeInOut, value: isShowing)
+    }
+    
+    private func onOptionTapped(_ option: SideMenuOptionModel) {
+        selectedOption = option
+        selectedTab = option.rawValue
+        isShowing = false
     }
 }
 
